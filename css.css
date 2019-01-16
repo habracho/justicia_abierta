@@ -1,0 +1,45 @@
+.headerContainer {
+	background: #c02424;
+}
+.headerContainer header::before {
+	content: '';
+	display: block;
+	float: left;
+	width: 132px;
+	background: url('https://aelp.smartsparrow.com/reflector/style/griffith-diagnosis-quiz/prod/1.*/assets/logo.png') no-repeat; /* Griffith logo */
+	margin-top: -2px
+}
+.headerContainer header .lessonTitle {
+	color: #fff;
+	margin-left: 5px;
+	padding-left: 10px;
+	border-left: 1px solid #fff;
+}
+.checkContainer .checkBtn, .checkContainer .closeFeedbackBtn, .checkContainer .showSolnBtn, .info-icon:not(.no-restyle) {
+	background-color: #c02424 !important;
+}
+.checkContainer .checkBtn:focus, .checkContainer .closeFeedbackBtn:focus, .checkContainer .showSolnBtn:focus, .checkContainer .checkBtn:hover, .checkContainer .closeFeedbackBtn:hover, .checkContainer .showSolnBtn:hover, .checkContainer .checkBtn:active, .checkContainer .closeFeedbackBtn:active, .checkContainer .showSolnBtn:active, .info-icon:not(.no-restyle):focus, .info-icon:not(.no-restyle):hover, .info-icon:not(.no-restyle):active {
+	background-color: #920c0c !important;
+	
+}
+.checkContainer .checkBtn:focus, .checkContainer .closeFeedbackBtn:focus, .checkContainer .showSolnBtn:focus, .checkContainer .checkBtn:active, .checkContainer .closeFeedbackBtn:active, .checkContainer .showSolnBtn:active, .info-icon:not(.no-restyle):focus, .info-icon:not(.no-restyle):active {
+	box-shadow: 0 0 1px 5px rgba(192,36,36,0.2);
+}
+.theme-header-score {
+	color: #fff;
+}
+.theme-header-score__icon {
+	background: url("https://style.smartsparrow.com/default-viewer-themes/1.7.5/assets/icon-star-light.svg") !important;
+}
+
+
+.mainView .background {
+	/* uncomment the line below and change the URL within the url('') section to apply a fixed background image to your lesson */
+	/*background: url('https://upload.wikimedia.org/wikipedia/commons/5/53/Queensland-Conservatorium-of-Music.jpg') no-repeat center !important;*/
+	background-size: cover !important;
+}
+
+/* improve list item margin */
+.content li {
+	margin-left: 0.5em !important;
+}
