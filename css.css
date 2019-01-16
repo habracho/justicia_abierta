@@ -35,7 +35,7 @@
 
 .mainView .background {
 	/* uncomment the line below and change the URL within the url('') section to apply a fixed background image to your lesson */
-	/*background: url('https://upload.wikimedia.org/wikipedia/commons/5/53/Queensland-Conservatorium-of-Music.jpg') no-repeat center !important;*/
+	background: url('https://upload.wikimedia.org/wikipedia/commons/5/53/Queensland-Conservatorium-of-Music.jpg') no-repeat center !important;
 	background-size: cover !important;
 }
 
